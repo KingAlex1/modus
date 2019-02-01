@@ -1,0 +1,25 @@
+// adjustment variables
+
+$container-width: 1170px;
+$body-font:'fira_sansregular', Helvetica, serif;
+
+//colors
+$fontGrey: rgb(127, 140, 140);
+$grey: rgb(236, 236, 236);
+$lightBlack:rgba(0, 0, 0, 0.1);
+$greyGreen: rgba(0, 0, 0, 0.5);
+$tomato: #e2534b;
+$minty: #76c7c0;
+$lightGrey:#f3f3f3;
+$superLightGrey: #f8f8f8;
+$white: #ffffff;
+$blue: #76caca;
+
+//layouts
+
+@import "_mics/mixins";
+@import "_mics/adjustment";
+
+//@import "components/HeaderTitle/index";
+//@import "components/Header/index";
+//@import "components/HeaderButton/index";
