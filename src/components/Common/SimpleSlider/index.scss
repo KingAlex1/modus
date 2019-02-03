@@ -1,0 +1,68 @@
+.slick-carousel-img{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100px;
+  margin: 0 10px;
+}
+
+.slick-carousel-list{
+  margin: 0 -10px;
+  padding: 50px 0;
+}
+
+
+.slick-carousel-img1 {
+  background-image: url("../../../image/image-from-rawpixel-id-427355-jpeg.jpg");
+}
+
+.slick-carousel-img2 {
+  background-image: url("../../../image/image-from-rawpixel-id-469590-jpeg.jpg");
+}
+
+.slick-carousel-img3 {
+  background-image: url("../../../image/image-from-rawpixel-id-427310-jpeg.jpg");
+}
+
+.slick-carousel-img4 {
+  background-image: url("../../../image/image-from-rawpixel-id-392132-jpeg.jpg");
+}
+
+.slick-carousel-img5 {
+  background-image: url("../../../image/image-from-rawpixel-id-67587-jpeg.jpg");
+}
+
+.slick-carousel-img6 {
+  background-image: url("../../../image/image-from-rawpixel-id-414525-jpeg.jpg");
+}
+
+.slick-carousel-img7 {
+  background-image: url("../../../image/image-from-rawpixel-id-532240-jpeg.jpg");
+}
+
+.slick-carousel-img8 {
+  background-image: url("../../../image/image-from-rawpixel-id-67653-jpeg.jpg");
+}
+
+.slick-carousel-img9 {
+  background-image: url("../../../image/image-from-rawpixel-id-427189-jpeg.jpg");
+}
+.slick-prev{
+  height: 35px;
+  width: 35px;
+}
+
+.slick-prev:before{
+   font-size: 35px;
+  color:#e2534b;
+}
+
+.slick-next{
+  height: 35px;
+  width: 35px;
+}
+
+.slick-next:before{
+  font-size: 35px;
+  color:#e2534b;
+}

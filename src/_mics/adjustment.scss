@@ -31,7 +31,10 @@ html, body {
   max-width: $container-width;
   margin: 0 auto;
 }
+.wrapper {
+  background-color:$lightGrey
 
+}
 ul{
   padding: 0;
   margin: 0;

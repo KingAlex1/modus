@@ -1,1 +1,371 @@
+.our-service {
+  margin-top: 50px;
+  color: rgba(0, 0, 0, 0.5);;
+  background-color: rgb(236, 236, 236);
+  display: flex;
+  flex-direction: row;
+}
 
+.our-service__info {
+  width: 840px;
+  padding-left: 10px;
+
+  margin: auto;
+
+}
+
+.our-service__title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.our-service__desc {
+  font-size: 14px;
+  margin-top: 10px
+}
+
+.our-service__button {
+  padding: 22px 36px;
+}
+
+.our-service__link {
+  display: block;
+  text-transform: uppercase;
+  background-color: #e2534b;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 16px 42px;
+}
+
+.our-service__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  color: rgba(0, 0, 0, 0.5);
+
+}
+
+.our-service__item {
+  display: block;
+  height: 310px;
+  width: 270px;
+  background-color: white;
+  text-align: center;
+  position: relative;
+
+  &:hover {
+
+    .our-service__item_link {
+      background-color: #e2534b;
+    }
+    .our-service__item_img1 {
+      background-image: url("../../image/index/thumb-minty.png");
+    }
+    .our-service__item_img2 {
+      background-image: url("../../image/index/key.png");
+    }
+    .our-service__item_img3 {
+      background-image: url("../../image/index/flag.png");
+
+    }
+    .our-service__item_img4 {
+      background-image: url("../../image/index/bottle.png");
+    }
+    .our-service__link {
+    }
+  }
+
+}
+
+.our-service__item_img {
+  height: 54px;
+  width: 54px;
+  padding: 12px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 0 auto;
+  margin-top: 44px;
+}
+
+.our-service__item_img1 {
+  background-image: url("../../image/index/thumb.png");
+}
+
+.our-service__item_img2 {
+  background-image: url("../../image/index/key-tomato.png");
+}
+
+.our-service__item_img3 {
+  background-image: url("../../image/index/flag-tomato.png");
+}
+
+.our-service__item_img4 {
+  background-image: url("../../image/index/bottle-tomato.png");
+}
+
+.our-service__item_desc {
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+.our-service__item_title {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.our-service__item_link {
+  display: block;
+  width: 200px;
+  height: 50px;
+  color: white;
+  background-color: #76c7c0;;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  line-height: 50px;
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.modus-section {
+  width: 100%;
+  background-color: rgb(236, 236, 236);
+}
+
+.why-modus {
+  padding-top: 80px;
+}
+
+.why-modus__info {
+  display: block;
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.why-modus__title {
+  font-size: 34px;
+  text-transform: uppercase;
+  color: #e2534b;
+}
+
+.why-modus__desc {
+  font-size: 14px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.screens {
+  display: block;
+  position: relative;
+  margin-top: 64px;
+  height: 360px;
+}
+
+.screen-left {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 370px;
+  height: 260px;
+  border: 3px solid #b0b8b9;
+  border-top: 42px solid #b0b8b9;
+  border-radius: 10px;
+  background-image: url("../../image/image-from-rawpixel-id-436234-jpeg.jpg");
+  background-size: cover;
+  background-position: center center;
+  box-sizing: border-box
+}
+
+.screen-right {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 370px;
+  height: 260px;
+  border: 3px solid #b0b8b9;
+  border-top: 42px solid #b0b8b9;
+  border-radius: 10px;
+  background-image: url("../../image/image-from-rawpixel-id-378920-jpeg.jpg");
+  background-size: cover;
+  background-position: center center;
+  box-sizing: border-box
+}
+
+.screen-middle {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 570px;
+  height: 360px;
+  border: 3px solid #b0b8b9;
+  border-top: 42px solid #b0b8b9;
+  border-radius: 10px;
+  z-index: 2;
+  background-image: url("../../image/image-from-rawpixel-id-427553-jpeg.jpg");
+  background-size: cover;
+  background-position: center center;
+  box-sizing: border-box
+}
+
+.screen-dot__list {
+  position: relative;
+  margin-top: -27px;
+}
+
+.dot {
+  display: inline-block;
+  content: '';
+  width: 13px;
+  height: 13px;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 9px;
+}
+
+.screen-dot__close {
+  display: block;
+  position: absolute;
+  content: '';
+  width: 13px;
+  height: 9px;
+  background-color: white;
+  border-radius: 3px;
+  margin-top: -17px;
+  right: 20px;
+
+}
+
+.our-advantages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 60px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.our-advantages__left {
+  display: block;
+  width: 270px;
+}
+
+.our-advantages__title {
+  font-weight: 800;
+  color:  rgba(0, 0, 0, 0.5);
+  display: inline-block;
+
+}
+
+.our-advantages__left-list {
+  display: block;
+  margin-top: 36px;
+}
+
+.our-advantages__left-item {
+  display: block;
+  margin-left: 20px;
+  position: relative;
+  padding: 6px 0;
+  font-size: 14px;
+  &:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 12px;
+    height: 12px;
+    left: -18px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url("../../image/index/arrow-right.png");
+    background-repeat: no-repeat;
+  }
+}
+
+.our-advantages__middle {
+  width: 570px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.our-advantages__middle-desc {
+
+}
+
+.our-advantages__right {
+  width: 270px;
+  font-size: 14px;
+}
+
+.our-advantages__right-desc {
+  display: block;
+  margin-top: 28px;
+  font-style: italic;
+  margin-left: 8px;
+  background-color: #f3f3f3;
+  padding: 8px;
+  line-height: 24px;
+
+}
+
+.our-advantages__right-sign{
+  margin:16px 0 0 40px  ;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.happy-clients{
+  margin-top: 60px;
+
+}
+
+.scale{
+  display: inline-block;
+  content: "";
+  position: relative;
+  height: 10px;
+
+
+  &:after{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 900px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 20px;
+    background-color: rgba(0, 0, 0, 0.5);;
+  }
+
+
+}
+
+.metr-section{
+  display: inline-block;
+  content: "";
+  height: 10px;
+  position: relative;
+ }
+
+.metr {
+  display: block;
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 20px;
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 4px;
+  left: 0;
+}
